@@ -1,0 +1,100 @@
+.mouseHeader {
+    transition: all infinite;
+ }
+ .mouseHeader:hover {
+    background-color: rgb(127, 148, 148);
+ }
+  
+ .mouseFooter {
+    transition: all infinite;
+ }
+ .mouseFooter:hover {
+    background-color: rgb(41, 38, 38);
+  
+ }
+ .mouseInicio {
+    transition: all infinite;
+ }
+ .mouseInicio:hover {
+    background-color: rgb(225, 228, 228) ;
+ }
+ .mouseEdificio {
+    transition: all infinite;
+ }
+ .mouseEdificio:hover {
+    background-color: rgb(75, 60, 60);
+    color: white;
+  
+ }
+ .cursiva {
+    font-style: italic;
+ }
+  
+ @keyframes titulo {
+    from {
+        transform: translate(-200px);
+        opacity: 0;
+  
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+  
+  
+ }
+ .titulo {
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+ }
+  
+ @keyframes logo {
+    from {
+        transform: translate(-200px);
+        opacity: 0;
+  
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+  
+  
+ }
+ .logo {
+    animation-name: logo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+ }
+  
+ @keyframes consulta {
+    from {
+        transform: translate(-400px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+ }
+ .consulta {
+    animation-name: consulta;
+    animation-iteration-count: 1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+ }
+  
+ .marginLogo {
+    margin-bottom: 3%;
+ }
+ .edificiosImagen {
+    transition: all infinite;
+  
+ }
+ .edificiosImagen:hover {
+    translate: 4 -20;
+  
+ }
